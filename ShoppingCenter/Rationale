@@ -1,0 +1,62 @@
+When creating the Customer class, I wanted to make creating Customer objects as efficiently and easily as possible.
+The Customer class defines the Customer objects' name, number of items in their cart, and the time spent in the store.
+The Customer class's constructor initializes the name and the number of items in the cart.
+There are getters for the name, number of items, and time so that they can be retreived easily in the Driver and the Shopping Center class.
+There is a method for incrementing the number of items in the customer's cart.
+There is a method for decrementing the number of items in the customer's cart.
+There is a method to increment the time of the customer.
+There is a too string method that prints a (grammatically correct) sentence for the customer and their info.
+
+A local implementation of DEQ was created for easy editing of the DEQ.
+There is a local method to enqueue an object to the front of the DEQ.
+There is a local method to dequeue an object from the back of the DEQ.
+There is a local method to peek at the first object of the DEQ.
+There is a local method to peek at the last object of the DEQ.
+
+The Driver is what is executed when the program runs, and captures all of the user input.
+The Driver also prints necessary information to the console for the user.
+First, the driver asks the user for all of the items and their amounts for the inventory of the shopping center.
+Second, the driver asks the user to enter the amount of items when there is a reorder of items.
+The Driver then prints the menu to the user.
+The user can make as many menu choices as they want.
+The while loop for the menu will run infinitely unless the user specifies that they want to exit.
+Cases 1, 2, and 3 capture user input to add customers, add items to customer carts, and remove items from customer carts, respectively.
+Case 4 adds a customer to a checkout line and removes them from the shoppers list.
+Case 5 checks out the customer, and the user can specify if the customer would like to leave or stay.
+Cases 6, 7, and 8 print the customers still shopping, the customers waiting in checkout lines, and the inventory of the shopping center, respectively.
+Case 9 asks the user to input an item to reorder. The amount reordered was specified earlier in the Driver.
+
+When creating the Item class, I wanted to make creating Item objects as efficiently and easily as possible.
+The Item class defines the Item objects' name and the amount in stock.
+The Item class's constructor initializes the name and the amount.
+There are getters for the name and amount so that they can be retreived easily in the Driver and the Shopping Center class.
+There is a method for incrementing the amount of items in stock.
+There is a method for decrementing the amount of items in stock.
+There is a setter for the amount of an item in stock.
+There is a too string method that prints the name of the Item
+
+A local implementation of Queue was created for easy editing of the Queue.
+The constructor initializes the front, back, number of items, and the items of the queue.
+There is a method to check if a queue is empty.
+There is a method to enqueue an item to the back of the queue, and increment the size of the queue.
+There is a method to dequeue an item from the front of the queue, and decrement the size of the queue.
+There is a method to dequeue all items from the queue.
+There is a method to peek at the front item of the queue.
+There is a method to check the size of the queue.
+There is a toString method that prints all items in the queue.
+
+The Shopping Center class handles all of the logic and methods for completing specific cases in the Driver.
+The class defines and initializes lists for the shoppers and inventory, and Queues for express, regular line 1, and regular line 2.
+Final variables for the max amount of items for express, a two warning messages are created.
+There is a method to print the customer to the console.
+There is a method to print all the customers and their info still shopping.
+There is a method to print all the customers still shopping.
+There are three separate methods to dequeue the first item from all three checkout lines.
+There is a method to return the size of a specified checkout line.
+There are also three method that are specific to returning the size of express, regular 1 and regular 2.
+There are methods to add, search for, and remove customers from the shopping center.
+There are methods to add and search for items in the shopping center.
+There is a method for reordering more of a specified item for the shopping center's inventory.
+There are methods to add  and remove an item from the customer's cart.
+There are methods to print the inventory, and all three checkout lines in order from front to back.
+There is a method to add customers to a checkout line, which also handles all the logic to find out which line they will be added to.

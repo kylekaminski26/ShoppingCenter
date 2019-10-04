@@ -1,0 +1,2685 @@
+***INPUT1***
+
+How many items would you like to add? 
+7
+Specify restock amount: 
+3
+Name of item 7: soup
+Amount of item 7: 5
+Name of item 6: bread
+Amount of item 6: 7
+Name of item 5: coffee
+Amount of item 5: 9
+Name of item 4: water
+Amount of item 4: 10
+Name of item 3: juice
+Amount of item 3: 4
+Name of item 2: soap
+Amount of item 2: 3
+Name of item 1: banana
+Amount of item 1: 15
+Here are the menu options:
+0. Close the Shopping Center.
+1. Customer enters Shopping Center.
+2. Customer picks an item and places it in the shopping cart.
+3. Customer removes an item from the shopping cart.
+4. Customer is done shopping.
+5. Customer checks out.
+6. Print info about customers who are shopping.
+7. Print info about customers in checkout lines.
+8. Print info about items at or below re-stocking level.
+9. Reorder an item.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: 3
+Enter item that was picked up by 3: 
+4
+ShoppingCenter.InvalidException: Customer 3 does not exist.
+
+Enter menu selection: 
+5
+There is no one in any of the lines.
+
+Enter menu selection: 
+6
+There are no customers currently shopping.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 5
+bread, quantity of 7
+coffee, quantity of 9
+water, quantity of 10
+juice, quantity of 4
+soap, quantity of 3
+*soap is running low.
+banana, quantity of 15
+
+Enter menu selection: 
+1
+Enter name: Latias
+Latias added.
+
+Enter menu selection: 
+1
+Enter name: Eevee
+Eevee added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Eevee
+Enter item that was picked up by Eevee: 
+soup
+
+Enter menu selection: 
+1
+Enter name: Pikachu
+Pikachu added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Eevee
+Enter item that was picked up by Eevee: 
+soap
+
+Enter menu selection: 
+1
+Enter name: Clefairy
+Clefairy added.
+
+Enter menu selection: 
+1
+Enter name: Munna
+Munna added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Munna
+Enter item that was picked up by Munna: 
+bread
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Munna
+Enter item that was picked up by Munna: 
+soap
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pikachu
+Enter item that was picked up by Pikachu: 
+soap
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Eevee
+Enter item that was picked up by Eevee: 
+soap
+ShoppingCenter.InvalidException: Could not take soap because there is no more stock.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Eevee
+Enter item that was picked up by Eevee: 
+juice
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Eevee
+Enter item that was picked up by Eevee: 
+bread
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Munna
+
+Enter menu selection: 
+1
+Enter name: Woobat
+Woobat added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Clefairy
+Enter item that was picked up by Clefairy: 
+babana
+ShoppingCenter.InvalidException: Item babana does not exist.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Clefairy
+Enter item that was picked up by Clefairy: 
+banana
+
+Enter menu selection: 
+1
+Enter name: Beartic
+Beartic added.
+
+Enter menu selection: 
+1
+Enter name: Minccino
+Minccino added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Woobat
+Enter item that was picked up by Woobat: 
+bread
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Beartic
+Enter item that was picked up by Beartic: 
+juice
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Woobat
+Enter item that was picked up by Woobat: 
+coffee
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Woobat
+Enter item that was picked up by Woobat: 
+soup
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Minccino
+Enter item that was picked up by Minccino: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Munna
+Enter item that was picked up by Munna: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pikachu
+Enter item that was picked up by Pikachu: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Beartic
+Enter item that was picked up by Beartic: 
+bread
+
+Enter menu selection: 
+1
+Enter name: Pansage
+Pansage added.
+
+Enter menu selection: 
+6
+Latias has shopped for 16 minutes.
+Eevee has shopped for 16 minutes.
+Pikachu has shopped for 15 minutes.
+Clefairy has shopped for 14 minutes.
+Munna has shopped for 14 minutes.
+Woobat has shopped for 9 minutes.
+Beartic has shopped for 8 minutes.
+Minccino has shopped for 8 minutes.
+Pansage has shopped for 0 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 3
+*soup is running low.
+bread, quantity of 3
+*bread is running low.
+coffee, quantity of 8
+water, quantity of 8
+juice, quantity of 2
+*juice is running low.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 13
+
+Enter menu selection: 
+9
+Enter item: sop
+ShoppingCenter.InvalidException: Item does not exist
+
+Enter menu selection: 
+9
+Enter item: soap
+
+Enter menu selection: 
+10
+Please enter a valid reponse.
+
+Enter menu selection: 
+9
+Enter item: soup
+
+Enter menu selection: 
+5
+There is no one in any of the lines.
+
+Enter menu selection: 
+8
+soup, quantity of 6
+bread, quantity of 3
+*bread is running low.
+coffee, quantity of 8
+water, quantity of 8
+juice, quantity of 2
+*juice is running low.
+soap, quantity of 3
+*soap is running low.
+banana, quantity of 13
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pansage
+Enter item that was picked up by Pansage: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Eevee
+Enter item that was picked up by Eevee: 
+juice
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Eevee
+Enter item that was picked up by Eevee: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Minccino
+Enter item that was picked up by Minccino: 
+coffee
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Minccino
+Enter item that was picked up by Minccino: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Minccino
+Enter item that was picked up by Minccino: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Minccino
+Enter item that was picked up by Minccino: 
+soap
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Woobat
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Beartic
+Enter item that was picked up by Beartic: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Woobat
+Enter item that was picked up by Woobat: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Woobat
+Enter item that was picked up by Woobat: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Woobat
+Enter item that was picked up by Woobat: 
+cofee
+ShoppingCenter.InvalidException: Item cofee does not exist.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Minccino
+Enter item that was picked up by Minccino: 
+bread
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Beartic
+Enter item that was picked up by Beartic: 
+yam
+ShoppingCenter.InvalidException: Item yam does not exist.
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Pansage
+
+Enter menu selection: 
+6
+Latias has shopped for 27 minutes.
+Eevee has shopped for 27 minutes.
+Pikachu has shopped for 26 minutes.
+Clefairy has shopped for 25 minutes.
+Munna has shopped for 25 minutes.
+Woobat has shopped for 20 minutes.
+Beartic has shopped for 19 minutes.
+Minccino has shopped for 19 minutes.
+Pansage has shopped for 11 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 6
+bread, quantity of 2
+*bread is running low.
+coffee, quantity of 7
+water, quantity of 3
+*water is running low.
+juice, quantity of 1
+*juice is running low.
+soap, quantity of 2
+*soap is running low.
+banana, quantity of 11
+
+Enter menu selection: 
+9
+Enter item: soup
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 9
+bread, quantity of 2
+*bread is running low.
+coffee, quantity of 7
+water, quantity of 3
+*water is running low.
+juice, quantity of 1
+*juice is running low.
+soap, quantity of 2
+*soap is running low.
+banana, quantity of 11
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pansage
+Enter item that was picked up by Pansage: 
+soup
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Beartic
+Enter item that was picked up by Beartic: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Woobat
+Enter item that was picked up by Woobat: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pansage
+Enter item that was picked up by Pansage: 
+coffee
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Beartic
+Enter item that was picked up by Beartic: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Woobat
+Enter item that was picked up by Woobat: 
+bread
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pansage
+Enter item that was picked up by Pansage: 
+soap
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Pansage
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Pansage
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Munna
+Enter item that was picked up by Munna: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Munna
+Enter item that was picked up by Munna: 
+juice
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pansage
+Enter item that was picked up by Pansage: 
+soap
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Eevee
+Enter item that was picked up by Eevee: 
+soup
+
+Enter menu selection: 
+6
+Latias has shopped for 38 minutes.
+Eevee has shopped for 38 minutes.
+Pikachu has shopped for 37 minutes.
+Clefairy has shopped for 36 minutes.
+Munna has shopped for 36 minutes.
+Woobat has shopped for 31 minutes.
+Beartic has shopped for 30 minutes.
+Minccino has shopped for 30 minutes.
+Pansage has shopped for 22 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 1
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 9
+
+Enter menu selection: 
+4
+Customer Latias added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Eevee added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Pikachu added to checkout lines.
+
+Enter menu selection: 
+6
+Clefairy has shopped for 36 minutes.
+Munna has shopped for 36 minutes.
+Woobat has shopped for 31 minutes.
+Beartic has shopped for 30 minutes.
+Minccino has shopped for 30 minutes.
+Pansage has shopped for 22 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Latias
+Pikachu
+     Regular 1: 
+Eevee
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 1
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 9
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Minccino
+Enter item that was picked up by Minccino: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Latias
+Enter item that was picked up by Latias: 
+juice
+ShoppingCenter.InvalidException: Customer Latias does not exist.
+
+Enter menu selection: 
+4
+Customer Clefairy added to checkout lines.
+
+Enter menu selection: 
+6
+Munna has shopped for 37 minutes.
+Woobat has shopped for 32 minutes.
+Beartic has shopped for 31 minutes.
+Minccino has shopped for 31 minutes.
+Pansage has shopped for 23 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Latias
+Pikachu
+Clefairy
+     Regular 1: 
+Eevee
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 1
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Clefairy
+Enter item that was picked up by Clefairy: 
+Beartic
+ShoppingCenter.InvalidException: Customer Clefairy does not exist.
+
+Enter menu selection: 
+6
+Munna has shopped for 37 minutes.
+Woobat has shopped for 32 minutes.
+Beartic has shopped for 31 minutes.
+Minccino has shopped for 31 minutes.
+Pansage has shopped for 23 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Latias
+Pikachu
+Clefairy
+     Regular 1: 
+Eevee
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 1
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Beartic
+
+Enter menu selection: 
+4
+Customer Munna added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Woobat added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Beartic added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Minccino added to checkout lines.
+
+Enter menu selection: 
+6
+Pansage has shopped for 23 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Latias
+Pikachu
+Clefairy
+Munna
+Beartic
+     Regular 1: 
+Minccino
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 1
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+5
+Customer Latias has finished checking out.
+Should they leave? (Y/N): N
+Latias has gone back shopping.
+
+Enter menu selection: 
+5
+Customer Pikachu has finished checking out.
+Should they leave? (Y/N): Y
+Pikachu has left the Shopping Center.
+
+Enter menu selection: 
+6
+Pansage has shopped for 23 minutes.
+Latias has shopped for 0 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Clefairy
+Munna
+Beartic
+     Regular 1: 
+Minccino
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 1
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+1
+Enter name: Pansag
+Pansag added.
+
+Enter menu selection: 
+5
+Customer Clefairy has finished checking out.
+Should they leave? (Y/N): Y
+Clefairy has left the Shopping Center.
+
+Enter menu selection: 
+5
+Customer Munna has finished checking out.
+Should they leave? (Y/N): Y
+Munna has left the Shopping Center.
+
+Enter menu selection: 
+5
+Customer Beartic has finished checking out.
+Should they leave? (Y/N): Y
+Beartic has left the Shopping Center.
+
+Enter menu selection: 
+5
+Customer Minccino has finished checking out.
+Should they leave? (Y/N): Y
+Minccino has left the Shopping Center.
+
+Enter menu selection: 
+6
+Pansage has shopped for 23 minutes.
+Latias has shopped for 0 minutes.
+Pansag has shopped for 0 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 1
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+5
+There is no one in any of the lines.
+
+Enter menu selection: 
+6
+Pansage has shopped for 23 minutes.
+Latias has shopped for 0 minutes.
+Pansag has shopped for 0 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 1
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Eevee
+Enter item that was picked up by Eevee: 
+soup
+ShoppingCenter.InvalidException: Customer Eevee does not exist.
+
+Enter menu selection: 
+4
+Customer Pansage added to checkout lines.
+
+Enter menu selection: 
+5
+Customer Pansage has finished checking out.
+Should they leave? (Y/N): Y
+Pansage has left the Shopping Center.
+
+Enter menu selection: 
+6
+Latias has shopped for 0 minutes.
+Pansag has shopped for 0 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 1
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+0
+The Shopping Center is closing...come back tomorrow.
+
+***INPUT 2***
+
+How many items would you like to add? 
+7
+Specify restock amount: 
+3
+Name of item 7: soup
+Amount of item 7: 5
+Name of item 6: bread
+Amount of item 6: 7
+Name of item 5: coffee
+Amount of item 5: 9
+Name of item 4: water
+Amount of item 4: 10
+Name of item 3: juice
+Amount of item 3: 4
+Name of item 2: soap
+Amount of item 2: 3
+Name of item 1: banana
+Amount of item 1: 15
+Here are the menu options:
+0. Close the Shopping Center.
+1. Customer enters Shopping Center.
+2. Customer picks an item and places it in the shopping cart.
+3. Customer removes an item from the shopping cart.
+4. Customer is done shopping.
+5. Customer checks out.
+6. Print info about customers who are shopping.
+7. Print info about customers in checkout lines.
+8. Print info about items at or below re-stocking level.
+9. Reorder an item.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: 3
+Enter item that was picked up by 3: 
+4
+ShoppingCenter.InvalidException: Customer 3 does not exist.
+
+Enter menu selection: 
+5
+There is no one in any of the lines.
+
+Enter menu selection: 
+6
+There are no customers currently shopping.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 5
+bread, quantity of 7
+coffee, quantity of 9
+water, quantity of 10
+juice, quantity of 4
+soap, quantity of 3
+*soap is running low.
+banana, quantity of 15
+
+Enter menu selection: 
+1
+Enter name: Zubat
+Zubat added.
+
+Enter menu selection: 
+1
+Enter name: Pikachu
+Pikachu added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pikachu
+Enter item that was picked up by Pikachu: 
+soup
+
+Enter menu selection: 
+1
+Enter name: Patrat
+Patrat added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pikachu
+Enter item that was picked up by Pikachu: 
+soap
+
+Enter menu selection: 
+1
+Enter name: Jigglypuff
+Jigglypuff added.
+
+Enter menu selection: 
+1
+Enter name: Raichu
+Raichu added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Raichu
+Enter item that was picked up by Raichu: 
+bread
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Patrat
+Enter item that was picked up by Patrat: 
+soap
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pikachu
+Enter item that was picked up by Pikachu: 
+soap
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pikachu
+Enter item that was picked up by Pikachu: 
+juice
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pikachu
+Enter item that was picked up by Pikachu: 
+bread
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Raichu
+
+Enter menu selection: 
+1
+Enter name: Charizard
+Charizard added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Jigglypuff
+Enter item that was picked up by Jigglypuff: 
+babana
+ShoppingCenter.InvalidException: Item babana does not exist.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Jigglypuff
+Enter item that was picked up by Jigglypuff: 
+banana
+
+Enter menu selection: 
+1
+Enter name: Mewtwo
+Mewtwo added.
+
+Enter menu selection: 
+1
+Enter name: Vulpix
+Vulpix added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Charizard
+Enter item that was picked up by Charizard: 
+bread
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Mewtwo
+Enter item that was picked up by Mewtwo: 
+juice
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Charizard
+Enter item that was picked up by Charizard: 
+coffee
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Charizard
+Enter item that was picked up by Charizard: 
+soup
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Vulpix
+Enter item that was picked up by Vulpix: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Raichu
+Enter item that was picked up by Raichu: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Patrat
+Enter item that was picked up by Patrat: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Mewtwo
+Enter item that was picked up by Mewtwo: 
+bread
+
+Enter menu selection: 
+1
+Enter name: Butterfree
+Butterfree added.
+
+Enter menu selection: 
+6
+Zubat has shopped for 16 minutes.
+Pikachu has shopped for 16 minutes.
+Patrat has shopped for 15 minutes.
+Jigglypuff has shopped for 14 minutes.
+Raichu has shopped for 14 minutes.
+Charizard has shopped for 9 minutes.
+Mewtwo has shopped for 8 minutes.
+Vulpix has shopped for 8 minutes.
+Butterfree has shopped for 0 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 3
+*soup is running low.
+bread, quantity of 3
+*bread is running low.
+coffee, quantity of 8
+water, quantity of 8
+juice, quantity of 2
+*juice is running low.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 13
+
+Enter menu selection: 
+9
+Enter item: sop
+ShoppingCenter.InvalidException: Item does not exist
+
+Enter menu selection: 
+9
+Enter item: soup
+
+Enter menu selection: 
+10
+Please enter a valid reponse.
+
+Enter menu selection: 
+9
+Enter item: soap
+
+Enter menu selection: 
+5
+There is no one in any of the lines.
+
+Enter menu selection: 
+8
+soup, quantity of 6
+bread, quantity of 3
+*bread is running low.
+coffee, quantity of 8
+water, quantity of 8
+juice, quantity of 2
+*juice is running low.
+soap, quantity of 3
+*soap is running low.
+banana, quantity of 13
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Butterfree
+Enter item that was picked up by Butterfree: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pikachu
+Enter item that was picked up by Pikachu: 
+juice
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pikachu
+Enter item that was picked up by Pikachu: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Vulpix
+Enter item that was picked up by Vulpix: 
+coffee
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Vulpix
+Enter item that was picked up by Vulpix: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Vulpix
+Enter item that was picked up by Vulpix: 
+soap
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Charizard
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Mewtwo
+Enter item that was picked up by Mewtwo: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Charizard
+Enter item that was picked up by Charizard: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Charizard
+Enter item that was picked up by Charizard: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Charizard
+Enter item that was picked up by Charizard: 
+coffee
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Vulpix
+Enter item that was picked up by Vulpix: 
+bread
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Mewtwo
+Enter item that was picked up by Mewtwo: 
+yam
+ShoppingCenter.InvalidException: Item yam does not exist.
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Butterfree
+
+Enter menu selection: 
+6
+Zubat has shopped for 27 minutes.
+Pikachu has shopped for 27 minutes.
+Patrat has shopped for 26 minutes.
+Jigglypuff has shopped for 25 minutes.
+Raichu has shopped for 25 minutes.
+Charizard has shopped for 20 minutes.
+Mewtwo has shopped for 19 minutes.
+Vulpix has shopped for 19 minutes.
+Butterfree has shopped for 11 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 6
+bread, quantity of 2
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 4
+juice, quantity of 1
+*juice is running low.
+soap, quantity of 2
+*soap is running low.
+banana, quantity of 11
+
+Enter menu selection: 
+9
+Enter item: soup
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 9
+bread, quantity of 2
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 4
+juice, quantity of 1
+*juice is running low.
+soap, quantity of 2
+*soap is running low.
+banana, quantity of 11
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Butterfree
+Enter item that was picked up by Butterfree: 
+soup
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Mewtwo
+Enter item that was picked up by Mewtwo: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Charizard
+Enter item that was picked up by Charizard: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Butterfree
+Enter item that was picked up by Butterfree: 
+coffee
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Mewtwo
+Enter item that was picked up by Mewtwo: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Charizard
+Enter item that was picked up by Charizard: 
+bread
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Butterfree
+Enter item that was picked up by Butterfree: 
+soap
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Butterfree
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Butterfree
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Raichu
+Enter item that was picked up by Raichu: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Raichu
+Enter item that was picked up by Raichu: 
+juice
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Butterfreee
+Enter item that was picked up by Butterfreee: 
+soap
+ShoppingCenter.InvalidException: Customer Butterfreee does not exist.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pikachu
+Enter item that was picked up by Pikachu: 
+soup
+
+Enter menu selection: 
+6
+Zubat has shopped for 37 minutes.
+Pikachu has shopped for 37 minutes.
+Patrat has shopped for 36 minutes.
+Jigglypuff has shopped for 35 minutes.
+Raichu has shopped for 35 minutes.
+Charizard has shopped for 30 minutes.
+Mewtwo has shopped for 29 minutes.
+Vulpix has shopped for 29 minutes.
+Butterfree has shopped for 21 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 5
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 1
+*soap is running low.
+banana, quantity of 9
+
+Enter menu selection: 
+4
+Customer Zubat added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Pikachu added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Patrat added to checkout lines.
+
+Enter menu selection: 
+6
+Jigglypuff has shopped for 35 minutes.
+Raichu has shopped for 35 minutes.
+Charizard has shopped for 30 minutes.
+Mewtwo has shopped for 29 minutes.
+Vulpix has shopped for 29 minutes.
+Butterfree has shopped for 21 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Zubat
+Patrat
+     Regular 1: 
+Pikachu
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 5
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 1
+*soap is running low.
+banana, quantity of 9
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Vulpix
+Enter item that was picked up by Vulpix: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Zubat
+Enter item that was picked up by Zubat: 
+juice
+ShoppingCenter.InvalidException: Customer Zubat does not exist.
+
+Enter menu selection: 
+4
+Customer Jigglypuff added to checkout lines.
+
+Enter menu selection: 
+6
+Raichu has shopped for 36 minutes.
+Charizard has shopped for 31 minutes.
+Mewtwo has shopped for 30 minutes.
+Vulpix has shopped for 30 minutes.
+Butterfree has shopped for 22 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Zubat
+Patrat
+Jigglypuff
+     Regular 1: 
+Pikachu
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 5
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 1
+*soap is running low.
+banana, quantity of 8
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Jigglypuff
+Enter item that was picked up by Jigglypuff: 
+water
+ShoppingCenter.InvalidException: Customer Jigglypuff does not exist.
+
+Enter menu selection: 
+6
+Raichu has shopped for 36 minutes.
+Charizard has shopped for 31 minutes.
+Mewtwo has shopped for 30 minutes.
+Vulpix has shopped for 30 minutes.
+Butterfree has shopped for 22 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Zubat
+Patrat
+Jigglypuff
+     Regular 1: 
+Pikachu
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 5
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 1
+*soap is running low.
+banana, quantity of 8
+
+Enter menu selection: 
+4
+Customer Raichu added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Charizard added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Mewtwo added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Vulpix added to checkout lines.
+
+Enter menu selection: 
+6
+Butterfree has shopped for 22 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Zubat
+Patrat
+Jigglypuff
+Raichu
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Vulpix
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 5
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 1
+*soap is running low.
+banana, quantity of 8
+
+Enter menu selection: 
+5
+Customer Zubat has finished checking out.
+Should they leave? (Y/N): N
+Zubat has gone back shopping.
+
+Enter menu selection: 
+5
+Customer Patrat has finished checking out.
+Should they leave? (Y/N): Y
+Patrat has left the Shopping Center.
+
+Enter menu selection: 
+6
+Butterfree has shopped for 22 minutes.
+Zubat has shopped for 0 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Jigglypuff
+Raichu
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Vulpix
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 5
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 1
+*soap is running low.
+banana, quantity of 8
+
+Enter menu selection: 
+5
+Customer Jigglypuff has finished checking out.
+Should they leave? (Y/N): Y
+Jigglypuff has left the Shopping Center.
+
+Enter menu selection: 
+5
+Customer Raichu has finished checking out.
+Should they leave? (Y/N): Y
+Raichu has left the Shopping Center.
+
+Enter menu selection: 
+5
+Customer Vulpix has finished checking out.
+Should they leave? (Y/N): Y
+Vulpix has left the Shopping Center.
+
+Enter menu selection: 
+5
+There is no one in any of the lines.
+
+Enter menu selection: 
+6
+Butterfree has shopped for 22 minutes.
+Zubat has shopped for 0 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 5
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 1
+*soap is running low.
+banana, quantity of 8
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pikachu
+Enter item that was picked up by Pikachu: 
+soup
+ShoppingCenter.InvalidException: Customer Pikachu does not exist.
+
+Enter menu selection: 
+4
+Customer Butterfree added to checkout lines.
+
+Enter menu selection: 
+5
+Customer Butterfree has finished checking out.
+Should they leave? (Y/N): Y
+Butterfree has left the Shopping Center.
+
+Enter menu selection: 
+6
+Zubat has shopped for 0 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 5
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 1
+*soap is running low.
+banana, quantity of 8
+
+Enter menu selection: 
+0
+The Shopping Center is closing...come back tomorrow.
+
+***INPUT3***
+
+How many items would you like to add? 
+7
+Specify restock amount: 
+3
+Name of item 7: soup
+Amount of item 7: 5
+Name of item 6: bread
+Amount of item 6: 7
+Name of item 5: coffee
+Amount of item 5: 9
+Name of item 4: water
+Amount of item 4: 10
+Name of item 3: juice
+Amount of item 3: 4
+Name of item 2: soap
+Amount of item 2: 3
+Name of item 1: banana
+Amount of item 1: 15
+Here are the menu options:
+0. Close the Shopping Center.
+1. Customer enters Shopping Center.
+2. Customer picks an item and places it in the shopping cart.
+3. Customer removes an item from the shopping cart.
+4. Customer is done shopping.
+5. Customer checks out.
+6. Print info about customers who are shopping.
+7. Print info about customers in checkout lines.
+8. Print info about items at or below re-stocking level.
+9. Reorder an item.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: 3
+Enter item that was picked up by 3: 
+4
+ShoppingCenter.InvalidException: Customer 3 does not exist.
+
+Enter menu selection: 
+5
+There is no one in any of the lines.
+
+Enter menu selection: 
+6
+There are no customers currently shopping.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 5
+bread, quantity of 7
+coffee, quantity of 9
+water, quantity of 10
+juice, quantity of 4
+soap, quantity of 3
+*soap is running low.
+banana, quantity of 15
+
+Enter menu selection: 
+1
+Enter name: Bulbasaur
+Bulbasaur added.
+
+Enter menu selection: 
+1
+Enter name: Pidgey
+Pidgey added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pidgey
+Enter item that was picked up by Pidgey: 
+soup
+
+Enter menu selection: 
+1
+Enter name: Hoopa
+Hoopa added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pidgey
+Enter item that was picked up by Pidgey: 
+soap
+
+Enter menu selection: 
+1
+Enter name: Caterpie
+Caterpie added.
+
+Enter menu selection: 
+1
+Enter name: Abra
+Abra added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Abra
+Enter item that was picked up by Abra: 
+bread
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Abra
+Enter item that was picked up by Abra: 
+soap
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Hoopa
+Enter item that was picked up by Hoopa: 
+soap
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pidgey
+Enter item that was picked up by Pidgey: 
+soap
+ShoppingCenter.InvalidException: Could not take soap because there is no more stock.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pidgey
+Enter item that was picked up by Pidgey: 
+juice
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pidgey
+Enter item that was picked up by Pidgey: 
+bread
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Abra
+
+Enter menu selection: 
+1
+Enter name: Kadabra
+Kadabra added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Caterpie
+Enter item that was picked up by Caterpie: 
+babana
+ShoppingCenter.InvalidException: Item babana does not exist.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Caterpie
+Enter item that was picked up by Caterpie: 
+banana
+
+Enter menu selection: 
+1
+Enter name: Darkrai
+Darkrai added.
+
+Enter menu selection: 
+1
+Enter name: Patrat
+Patrat added.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Kadabra
+Enter item that was picked up by Kadabra: 
+bread
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Darkrai
+Enter item that was picked up by Darkrai: 
+juice
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Kadabra
+Enter item that was picked up by Kadabra: 
+coffee
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Kadabra
+Enter item that was picked up by Kadabra: 
+soup
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Patrat
+Enter item that was picked up by Patrat: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Abra
+Enter item that was picked up by Abra: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Hoopa
+Enter item that was picked up by Hoopa: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Darkrai
+Enter item that was picked up by Darkrai: 
+bread
+
+Enter menu selection: 
+1
+Enter name: Golem
+Golem added.
+
+Enter menu selection: 
+6
+Bulbasaur has shopped for 16 minutes.
+Pidgey has shopped for 16 minutes.
+Hoopa has shopped for 15 minutes.
+Caterpie has shopped for 14 minutes.
+Abra has shopped for 14 minutes.
+Kadabra has shopped for 9 minutes.
+Darkrai has shopped for 8 minutes.
+Patrat has shopped for 8 minutes.
+Golem has shopped for 0 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 3
+*soup is running low.
+bread, quantity of 3
+*bread is running low.
+coffee, quantity of 8
+water, quantity of 8
+juice, quantity of 2
+*juice is running low.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 13
+
+Enter menu selection: 
+9
+Enter item: sop
+ShoppingCenter.InvalidException: Item does not exist
+
+Enter menu selection: 
+9
+Enter item: soap
+
+Enter menu selection: 
+10
+Please enter a valid reponse.
+
+Enter menu selection: 
+9
+Enter item: soup
+
+Enter menu selection: 
+5
+There is no one in any of the lines.
+
+Enter menu selection: 
+8
+soup, quantity of 6
+bread, quantity of 3
+*bread is running low.
+coffee, quantity of 8
+water, quantity of 8
+juice, quantity of 2
+*juice is running low.
+soap, quantity of 3
+*soap is running low.
+banana, quantity of 13
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Golem
+Enter item that was picked up by Golem: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pidgey
+Enter item that was picked up by Pidgey: 
+juice
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pidgey
+Enter item that was picked up by Pidgey: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Patrat
+Enter item that was picked up by Patrat: 
+coffee
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Patrat
+Enter item that was picked up by Patrat: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Patrat
+Enter item that was picked up by Patrat: 
+soap
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Kadabra
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Darkrai
+Enter item that was picked up by Darkrai: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Kadabra
+Enter item that was picked up by Kadabra: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Kadabra
+Enter item that was picked up by Kadabra: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Kadabra
+Enter item that was picked up by Kadabra: 
+cofee
+ShoppingCenter.InvalidException: Item cofee does not exist.
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Patrat
+Enter item that was picked up by Patrat: 
+bread
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Darkrai
+Enter item that was picked up by Darkrai: 
+yam
+ShoppingCenter.InvalidException: Item yam does not exist.
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Golem
+
+Enter menu selection: 
+6
+Bulbasaur has shopped for 26 minutes.
+Pidgey has shopped for 26 minutes.
+Hoopa has shopped for 25 minutes.
+Caterpie has shopped for 24 minutes.
+Abra has shopped for 24 minutes.
+Kadabra has shopped for 19 minutes.
+Darkrai has shopped for 18 minutes.
+Patrat has shopped for 18 minutes.
+Golem has shopped for 10 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 6
+bread, quantity of 2
+*bread is running low.
+coffee, quantity of 7
+water, quantity of 4
+juice, quantity of 1
+*juice is running low.
+soap, quantity of 2
+*soap is running low.
+banana, quantity of 11
+
+Enter menu selection: 
+9
+Enter item: soup
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 9
+bread, quantity of 2
+*bread is running low.
+coffee, quantity of 7
+water, quantity of 4
+juice, quantity of 1
+*juice is running low.
+soap, quantity of 2
+*soap is running low.
+banana, quantity of 11
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Golem
+Enter item that was picked up by Golem: 
+soup
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Darkrai
+Enter item that was picked up by Darkrai: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Kadabra
+Enter item that was picked up by Kadabra: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Golem
+Enter item that was picked up by Golem: 
+coffee
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Darkrai
+Enter item that was picked up by Darkrai: 
+water
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Kadabra
+Enter item that was picked up by Kadabra: 
+bread
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Golem
+Enter item that was picked up by Golem: 
+soap
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Golem
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Golem
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Abra
+Enter item that was picked up by Abra: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Abra
+Enter item that was picked up by Abra: 
+juice
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Golem
+Enter item that was picked up by Golem: 
+soap
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Pidgey
+Enter item that was picked up by Pidgey: 
+soup
+
+Enter menu selection: 
+6
+Bulbasaur has shopped for 37 minutes.
+Pidgey has shopped for 37 minutes.
+Hoopa has shopped for 36 minutes.
+Caterpie has shopped for 35 minutes.
+Abra has shopped for 35 minutes.
+Kadabra has shopped for 30 minutes.
+Darkrai has shopped for 29 minutes.
+Patrat has shopped for 29 minutes.
+Golem has shopped for 21 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 9
+
+Enter menu selection: 
+4
+Customer Bulbasaur added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Pidgey added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Hoopa added to checkout lines.
+
+Enter menu selection: 
+6
+Caterpie has shopped for 35 minutes.
+Abra has shopped for 35 minutes.
+Kadabra has shopped for 30 minutes.
+Darkrai has shopped for 29 minutes.
+Patrat has shopped for 29 minutes.
+Golem has shopped for 21 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Bulbasaur
+Hoopa
+     Regular 1: 
+Pidgey
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 9
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Patrat
+Enter item that was picked up by Patrat: 
+banana
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Bulbasaur
+Enter item that was picked up by Bulbasaur: 
+juice
+ShoppingCenter.InvalidException: Customer Bulbasaur does not exist.
+
+Enter menu selection: 
+4
+Customer Caterpie added to checkout lines.
+
+Enter menu selection: 
+6
+Abra has shopped for 36 minutes.
+Kadabra has shopped for 31 minutes.
+Darkrai has shopped for 30 minutes.
+Patrat has shopped for 30 minutes.
+Golem has shopped for 22 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Bulbasaur
+Hoopa
+Caterpie
+     Regular 1: 
+Pidgey
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Caterpie
+Enter item that was picked up by Caterpie: 
+water
+ShoppingCenter.InvalidException: Customer Caterpie does not exist.
+
+Enter menu selection: 
+6
+Abra has shopped for 36 minutes.
+Kadabra has shopped for 31 minutes.
+Darkrai has shopped for 30 minutes.
+Patrat has shopped for 30 minutes.
+Golem has shopped for 22 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Bulbasaur
+Hoopa
+Caterpie
+     Regular 1: 
+Pidgey
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+3
+Enter customer that removed item from cart: Darkrai
+
+Enter menu selection: 
+4
+Customer Abra added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Kadabra added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Darkrai added to checkout lines.
+
+Enter menu selection: 
+4
+Customer Patrat added to checkout lines.
+
+Enter menu selection: 
+6
+Golem has shopped for 22 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Bulbasaur
+Hoopa
+Caterpie
+Abra
+Darkrai
+     Regular 1: 
+Patrat
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+5
+Customer Bulbasaur has finished checking out.
+Should they leave? (Y/N): N
+Bulbasaur has gone back shopping.
+
+Enter menu selection: 
+5
+Customer Hoopa has finished checking out.
+Should they leave? (Y/N): Y
+Hoopa has left the Shopping Center.
+
+Enter menu selection: 
+6
+Golem has shopped for 22 minutes.
+Bulbasaur has shopped for 0 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Caterpie
+Abra
+Darkrai
+     Regular 1: 
+Patrat
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+5
+Customer Caterpie has finished checking out.
+Should they leave? (Y/N): Y
+Caterpie has left the Shopping Center.
+
+Enter menu selection: 
+5
+Customer Abra has finished checking out.
+Should they leave? (Y/N): Y
+Abra has left the Shopping Center.
+
+Enter menu selection: 
+5
+Customer Darkrai has finished checking out.
+Should they leave? (Y/N): Y
+Darkrai has left the Shopping Center.
+
+Enter menu selection: 
+5
+Customer Patrat has finished checking out.
+Should they leave? (Y/N): Y
+Patrat has left the Shopping Center.
+
+Enter menu selection: 
+6
+Golem has shopped for 22 minutes.
+Bulbasaur has shopped for 0 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+5
+There is no one in any of the lines.
+
+Enter menu selection: 
+6
+Golem has shopped for 22 minutes.
+Bulbasaur has shopped for 0 minutes.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 7
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+2
+Enter customer that picked up an item: Bulbasaur
+Enter item that was picked up by Bulbasaur: 
+soup
+
+Enter menu selection: 
+4
+Customer Golem added to checkout lines.
+
+Enter menu selection: 
+5
+Customer Golem has finished checking out.
+Should they leave? (Y/N): Y
+Golem has left the Shopping Center.
+
+Enter menu selection: 
+6
+Bulbasaur has shopped for 1 minute.
+
+Enter menu selection: 
+7
+     Express Line: 
+Express is empty.
+     Regular 1: 
+Regular Line 1 is empty.
+     Regular 2: 
+Regular Line 2 is empty.
+
+Enter menu selection: 
+8
+soup, quantity of 6
+bread, quantity of 1
+*bread is running low.
+coffee, quantity of 6
+water, quantity of 2
+*water is running low.
+juice, quantity of 0
+***juice needs to be restocked.
+soap, quantity of 0
+***soap needs to be restocked.
+banana, quantity of 8
+
+Enter menu selection: 
+0
+The Shopping Center is closing...come back tomorrow.
